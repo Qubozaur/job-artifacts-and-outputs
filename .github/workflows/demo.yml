@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get build arftifacts
-        uses: actions/download-artifact
+        uses: actions/download-artifact@v3
         with:
           name: dist-files
       - name: Output content
